@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.simplilearn.Phase2Project.TestRunner" time="18.953" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\harshavardhana.khaga\eclipse-workspace\Phase2Project\target\test-classes;C:\Users\harshavardhana.khaga\eclipse-workspace\Phase2Project\target\classes;C:\Users\harshavardhana.khaga\.m2\repository\io\cucumber\cucumber-java\5.6.0\cucumber-java-5.6.0.jar;C:\Users\harshavardhana.khaga\.m2\repository\io\cucumber\cucumber-core\5.6.0\cucumber-core-5.6.0.jar;C:\Users\harshavardhana.khaga\.m2\repository\io\cucumber\cucumber-gherkin\5.6.0\cucumber-gherkin-5.6.0.jar;C:\Users\harshavardhana.khaga\.m2\repository\io\cucumber\cucumber-gherkin-vintage\5.6.0\cucumber-gherkin-vintage-5.6.0.jar;C:\Users\harshavardhana.khaga\.m2\repository\io\cucumber\tag-expressions\2.0.4\tag-expressions-2.0.4.jar;C:\Users\harshavardhana.khaga\.m2\repository\io\cucumber\cucumber-expressions\8.3.1\cucumber-expressions-8.3.1.jar;C:\Users\harshavardhana.khaga\.m2\repository\io\cucumber\datatable\3.3.1\datatable-3.3.1.jar;C:\Users\harshavardhana.khaga\.m2\repository\io\cucumber\cucumber-plugin\5.6.0\cucumber-plugin-5.6.0.jar;C:\Users\harshavardhana.khaga\.m2\repository\io\cucumber\docstring\5.6.0\docstring-5.6.0.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\harshavardhana.khaga\.m2\repository\io\cucumber\cucumber-junit\5.6.0\cucumber-junit-5.6.0.jar;C:\Users\harshavardhana.khaga\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\harshavardhana.khaga\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\harshavardhana.khaga\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\harshavardhana.khaga\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\harshavardhana.khaga\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\harshavardhana.khaga\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\harshavardhana.khaga\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\harshavardhana.khaga\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\harshavardhana.khaga\.m2\repository\io\github\bonigarcia\webdrivermanager\4.2.2\webdrivermanager-4.2.2.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\harshavardhana.khaga\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\harshavardhana.khaga\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.1\httpclient5-5.0.1.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\harshavardhana.khaga\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\harshavardhana.khaga\AppData\Local\Temp\surefire18189850283659956241\surefirebooter-20230719103418692_3.jar C:\Users\harshavardhana.khaga\AppData\Local\Temp\surefire18189850283659956241 2023-07-19T10-34-18_488-jvmRun1 surefire-20230719103418692_1tmp surefire_0-20230719103418692_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\harshavardhana.khaga\eclipse-workspace\Phase2Project\target\test-classes;C:\Users\harshavardhana.khaga\eclipse-workspace\Phase2Project\target\classes;C:\Users\harshavardhana.khaga\.m2\repository\io\cucumber\cucumber-java\5.6.0\cucumber-java-5.6.0.jar;C:\Users\harshavardhana.khaga\.m2\repository\io\cucumber\cucumber-core\5.6.0\cucumber-core-5.6.0.jar;C:\Users\harshavardhana.khaga\.m2\repository\io\cucumber\cucumber-gherkin\5.6.0\cucumber-gherkin-5.6.0.jar;C:\Users\harshavardhana.khaga\.m2\repository\io\cucumber\cucumber-gherkin-vintage\5.6.0\cucumber-gherkin-vintage-5.6.0.jar;C:\Users\harshavardhana.khaga\.m2\repository\io\cucumber\tag-expressions\2.0.4\tag-expressions-2.0.4.jar;C:\Users\harshavardhana.khaga\.m2\repository\io\cucumber\cucumber-expressions\8.3.1\cucumber-expressions-8.3.1.jar;C:\Users\harshavardhana.khaga\.m2\repository\io\cucumber\datatable\3.3.1\datatable-3.3.1.jar;C:\Users\harshavardhana.khaga\.m2\repository\io\cucumber\cucumber-plugin\5.6.0\cucumber-plugin-5.6.0.jar;C:\Users\harshavardhana.khaga\.m2\repository\io\cucumber\docstring\5.6.0\docstring-5.6.0.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\harshavardhana.khaga\.m2\repository\io\cucumber\cucumber-junit\5.6.0\cucumber-junit-5.6.0.jar;C:\Users\harshavardhana.khaga\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\harshavardhana.khaga\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\harshavardhana.khaga\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\harshavardhana.khaga\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\harshavardhana.khaga\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\harshavardhana.khaga\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\harshavardhana.khaga\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\harshavardhana.khaga\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\harshavardhana.khaga\.m2\repository\io\github\bonigarcia\webdrivermanager\4.2.2\webdrivermanager-4.2.2.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\harshavardhana.khaga\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\harshavardhana.khaga\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.1\httpclient5-5.0.1.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\harshavardhana.khaga\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\harshavardhana.khaga\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\harshavardhana.khaga"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\harshavardhana.khaga\eclipse-workspace\Phase2Project"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\harshavardhana.khaga\AppData\Local\Temp\surefire18189850283659956241\surefirebooter-20230719103418692_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.7+8-LTS-224"/>
+    <property name="user.name" value="Harshavardhana.Khaga"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\harshavardhana.khaga\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\HARSHA~1.KHA\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.7"/>
+    <property name="user.dir" value="C:\Users\harshavardhana.khaga\eclipse-workspace\Phase2Project"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\80\Tools\Binn\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\IVI Foundation\IVI\bin;C:\Program Files\IVI Foundation\IVI\bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\PuTTY\;C:\Program Files\nodejs\;C:\Users\harshavardhana.khaga\AppData\Local\Microsoft\WindowsApps;C:\Users\harshavardhana.khaga\AppData\Local\Programs\Git\cmd;C:\Users\harshavardhana.khaga\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.7+8-LTS-224"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Validate the Login success scenario" classname="This feature will be used to test the login functionality of saucedemo application" time="10.244">
+    <system-out><![CDATA[........]]></system-out>
+    <system-err><![CDATA[Jul 19, 2023 10:34:19 AM io.cucumber.junit.Cucumber <init>
+WARNING: By default Cucumber is running in --non-strict mode.
+This default will change to --strict and --non-strict will be removed.
+You can use --strict or @CucumberOptions(strict = true) to suppress this warning
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 41256
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1689743062.416][WARNING]: This version of ChromeDriver has not been tested with Chrome version 115.
+Jul 19, 2023 10:34:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Validate the Login success scenario" classname="This feature will be used to test the login functionality of saucedemo application" time="2.799">
+    <system-out><![CDATA[.....]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 35189
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1689743071.464][WARNING]: This version of ChromeDriver has not been tested with Chrome version 115.
+Jul 19, 2023 10:34:31 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Validate the Login failure scenario using examples" classname="This feature will be used to test the login functionality of saucedemo application" time="2.781">
+    <system-out><![CDATA[.....]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 12285
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1689743074.335][WARNING]: This version of ChromeDriver has not been tested with Chrome version 115.
+Jul 19, 2023 10:34:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Validate the Login failure scenario using examples" classname="This feature will be used to test the login functionality of saucedemo application" time="2.568">
+    <system-out><![CDATA[.....]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 48055
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1689743076.916][WARNING]: This version of ChromeDriver has not been tested with Chrome version 115.
+Jul 19, 2023 10:34:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
